@@ -64,7 +64,7 @@ collections:
         permalink: /wiki/:path/
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
