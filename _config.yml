@@ -1,0 +1,42 @@
+
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: 
+date_format: "ordinal"
+title: Anthony's Front End Club
+description: 安东尼的生活
+keywords: HTML5, javaScript, CSS3
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: anthonyli
+organization_url: www.duiba.com.cn
+github_username: anthonyli
+location: Hangzhou, China
+email: 463968565@qq.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
