@@ -58,6 +58,7 @@ excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 plugins:
     - jekyll-feed
+    - jekyll-paginate
 collections:
     wiki:
         output: true
