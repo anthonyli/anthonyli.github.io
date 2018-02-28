@@ -6,6 +6,7 @@ baseurl:
 url: 
 date_format: "ordinal"
 title: Anthony's Front End Club
+brief-intro: Front-End Engineer
 description: 安东尼的生活
 keywords: HTML5, javaScript, CSS3
 favicon: /favicon.ico
@@ -18,13 +19,58 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: anthonyli
-organization_url: www.duiba.com.cn
 github_username: anthonyli
 location: Hangzhou, China
 email: 463968565@qq.com
 
-# Build settings
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+
+    # ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# Build settings
 theme: minima
 plugins:
   - jekyll-feed
