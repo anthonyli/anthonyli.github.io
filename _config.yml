@@ -44,7 +44,7 @@ navs:
     label: 关于
 
 
-    # ---------------- #
+# ---------------- #
 #      Jekyll      #
 # ---------------- #
 markdown: kramdown
@@ -56,15 +56,8 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
+plugins:
     - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
 collections:
     wiki:
         output: true
@@ -72,8 +65,6 @@ collections:
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
